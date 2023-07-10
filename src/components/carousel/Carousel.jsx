@@ -35,7 +35,9 @@ const Carousel = (props) => {
         overflow-auto p-6 w-80 max-w-screen-lg snap-x
         scroll-smooth">
           {props.data.map( (item, index) => (
-            <div className='#CARD flex flex-col flex-shrink-0 
+            <div 
+                key={index}
+                className='#CARD flex flex-col flex-shrink-0 
                 bg-sky-500 w-60 h-60 rounded-md justify-center 
                 items-center text-2xl snap-center
                 transition ease-in-out duration-300 hover:scale-110'

@@ -2,9 +2,14 @@ Database model:
 - type
 - feature (name, coord)
 
-- name features to add:
+V name features to add:
     - map api that shows location and photo of a feature type (e.g. plateau...)
     - form to add that data
+- add map api that shows recorded features
+    V add map api
+    V adjust map api to fit screen
+    - add data points that's clickable
+    - redirect data point
 - create home page
     - list basic geologic features
     - start with adding "Ria" feature page

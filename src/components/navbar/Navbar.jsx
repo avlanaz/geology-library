@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import styles from "./navbar.module.css"
 import { signOut, useSession } from 'next-auth/react'
+import AuthProvider from '@/components/AuthProvider/AuthProvider'
 
 const links = [
   {
